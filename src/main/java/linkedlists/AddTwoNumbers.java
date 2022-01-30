@@ -5,12 +5,13 @@ package linkedlists;
 //1000000000000000000000000000001
 
 /**
- * Definition for singly-linked list. public class ListNode { int val; ListNode
- * next; ListNode(int x) { val = x; } }
+ * Definition for singly-linked list. public class ListNode { int val; ListNode next; ListNode(int
+ * x) { val = x; } }
  */
 
 class ListNode {
-  int      val;
+
+  int val;
   ListNode next;
 
   ListNode(int x) {
@@ -19,6 +20,7 @@ class ListNode {
 }
 
 public class AddTwoNumbers {
+
   static ListNode head = null;
 
   public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {

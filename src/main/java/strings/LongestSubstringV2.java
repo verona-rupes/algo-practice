@@ -4,11 +4,15 @@ package strings;
 public class LongestSubstringV2 {
 
   public static int lengthOfLongestSubstring(String s) {
-    if(s==null || s.length()==0) return 0;
-    if(s.length()==1) return 1;
-    
+    if (s == null || s.length() == 0) {
+      return 0;
+    }
+    if (s.length() == 1) {
+      return 1;
+    }
+
     String longPair = null;
-    
+
     for (int k = 0; k < s.length(); k++) {
       String pair = String.valueOf(s.charAt(k));
       System.out.println("Start Pair:" + pair);
